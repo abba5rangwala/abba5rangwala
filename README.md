@@ -1,18 +1,19 @@
-## Need to run all command form this directory only
+```
+$ whoami
+abbas.rangwala
 
-### zsh rc
+$ finger abbas.rangwala
+Login: abbas.rangwala					Name: abbas.rangwala
+Directory: /World/abbas.rangwala       	Shell: /bin/zsh
+On since Sun Mar 28 1999 06:05 (IST) on console (messages off)
+No Mail.
+No Plan.
 
-ln -s $(PWD)/zshrc/zshrc ~/.zshrc
+$ ls -la
+notes.txt
 
+$ cat notes.txt
+Wer ordnung hält, ist nur zu faul zum suchen
+-- German proverbs 
 
-### tmux conf
-
-ln -s $(PWD)/tmux/tmux.conf ~/.tmux.conf
-
-### alacritty 
-
-ln -s $(PWD)/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
-
-### neo vim
-
-TBD
+```
