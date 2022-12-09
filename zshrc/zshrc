@@ -115,6 +115,9 @@ zle -N zle-line-init
 zle -N zle-keymap-select
 
 
+alias coast=~/Swiggy/coast-cli/coast-cli
+
+
 # GOLANG
 export GOROOT=/usr/local/go
 export PATH=$PATH:$GOROOT/bin
@@ -136,11 +139,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # curl collection
-source ~/URl/exporter.sh
+alias enable_exporter="source ~/URl/exporter.sh"
+alias enable_shell="source ~/Swiggy/foundation-hackathon/shell/run.sh"
 
 # NVIM
-alias vim=nvim
-alias vi=nvim
+# alias vim=nvim
+# alias vi=nvim
 
 
 # GITHUB
